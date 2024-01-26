@@ -10,7 +10,7 @@ export const ClientThemeProvider = ({ children }: ClientThemeProviderType) => {
     const { isDarkMode } = useContext(ThemeContext);
 
     return (
-        <div id='client-theme-provider' data-theme={isDarkMode ? 'dark' : 'light'}>
+        <div className="min-h-screen" data-theme={isDarkMode ? 'dark' : 'light'}>
             {children}
         </div>
     )

@@ -1,8 +1,5 @@
-import ToggleDarkMode from "@/components/ToggleDarkMode";
-
 export default function Home() {
-
   return (
-    <ToggleDarkMode />
+    <h1 className="text-6xl">HOME</h1>
   );
 }
